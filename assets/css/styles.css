@@ -1,2 +1,26 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* variables */
+:root { 
+    /* COLORS */
+
+    /* headings, buttons, icons */
+    --primary-color: #183F32;
+    /* footer, hero base */
+    --primary-color-darker: #102D24;
+    /* body color, descriptions */
+    --primary-color-highlight: #626D62;
+    /* main background, light text */
+    --secondary-color: #F7F6EF;
+    /* events, newsletter backgrounds */
+    --secondary-color-darker: #E6EBE1;
+    /* dividers, secondary footer text */
+    --tertiary-color: #D9E2D7;
+    /* input borders */
+    --tertiary-color-highlight: #D2D9CD;
+    
+    /* FONTS */
+    --heading-font: "Cormorant Garamond", Georgia, serif;
+    --body-font: "Inter", Arial, sans-serif;
+}
