@@ -32,8 +32,7 @@
     width: 100%;
     z-index: 1000;
     background: var(--primary-color-highlight);
-    height: 10vh;
-    
+    border: 1px solid var(--primary-color);   
 }
 
 .navbar-brand {
@@ -41,7 +40,6 @@
     font-family: var(--heading-font);
     font-size: 30px;
     font-weight: 500;
-
 }
 
 
@@ -87,6 +85,7 @@
 
 .hero-content > p {
     font-family: var(--body-font);
+    display: flex;
 }
 
 .hero-tagline {
@@ -107,4 +106,8 @@
     border-color: var(--secondary-color-darker);
     text-transform: capitalize;
     font-weight: 500;
+}
+
+.text {
+    font-size: 0.7rem;
 }
