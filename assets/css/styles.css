@@ -145,7 +145,7 @@ h1 {
     background-color: var(--secondary-color-darker);
     color: var(--primary-color);
     font-size: 13px;
-    height: 200px;
+    height: 210px;
     padding-left: 1rem;
     padding-top: 1rem;
     font-weight: 500;
@@ -184,9 +184,38 @@ h1 {
 }
 
 /* attractions section */
+.attractions {
+    background-color: var(--secondary-color);
+    padding-top: 20px;
+}
 
+.attractions-intro {
+    margin-left: 1rem;
+}
 
+.card-heading {
+    text-transform: capitalize;
+}
 
+.card-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title-row .card-title {
+    margin-bottom: 0;
+}
+
+.home-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-top {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
 
 .card-img-wrapper{
     position: relative;
