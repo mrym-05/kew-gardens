@@ -135,7 +135,7 @@ body {
     background-color: var(--secondary-color-darker);
     color: var(--primary-color);
     font-size: 13px;
-    height: 150px;
+    height: 200px;
     padding-left: 1rem;
     padding-top: 1rem;
     font-weight: 500;
@@ -156,5 +156,20 @@ body {
 .plan {
     color: var(--primary-color);
     font-weight: 600;
+}
+
+.info-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+#info-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color-darker);
+    border-color: var(--secondary-color-darker);
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.5rem 4rem;
 }
 
