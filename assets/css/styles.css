@@ -32,7 +32,8 @@
     width: 100%;
     z-index: 1000;
     background: var(--primary-color-highlight);
-    border: 1px solid var(--primary-color);   
+    border: 1px solid var(--primary-color);
+    height: 5rem; 
 }
 
 .navbar-brand {
@@ -98,7 +99,11 @@
 
 .hero-desc {
     font-size: 13px;
-    max-width: 210px;
+    max-width: 260px;
+}
+
+.para-one {
+    margin-bottom: 0.2rem;
 }
 
 #hero-btn {
