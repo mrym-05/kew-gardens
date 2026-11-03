@@ -191,11 +191,23 @@ h1 {
 
 .attractions-intro {
     margin-left: 1rem;
+    color: var(--primary-color);
+}
+
+.card-link-btn {
+    color: var(--primary-color-highlight)
 }
 
 .card-heading {
     text-transform: capitalize;
+    font-size: 2rem;
 }
+
+.card-desc {
+    color: var(--primary-color-highlight);
+}
+
+
 
 .card-title-row {
     display: flex;
@@ -226,5 +238,11 @@ h1 {
     inset: 0;
     background: rgba(247, 227, 198, 0.2);
     pointer-events: none;
+}
+
+.card-img-top {
+    height: 230px;
+    object-fit: cover;
+    border-radius: 0;
 }
 
