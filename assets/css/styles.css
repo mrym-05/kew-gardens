@@ -13,8 +13,6 @@
     /* light neutrals */
     --secondary-color: #F7F6EF;
     --secondary-color-darker: #E6EBE1;
-    --tertiary-color: #D9E2D7;
-    --tertiary-color-highlight: #D2D9CD;
     
     /* FONTS */
     --heading-font: "Cormorant Garamond", Georgia, serif;
@@ -266,4 +264,19 @@ h1 {
     display: flex;
     justify-content: center; 
     margin-top: 14px;
+}
+
+.events {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 1.5rem;
+    background-color: var(--secondary-color-darker)
+}
+
+.events > p {
+    color: var(--primary-color);
+}
+
+.events > h1 {
+    color: var(--primary-color-darker);
 }
