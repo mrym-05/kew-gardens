@@ -195,7 +195,7 @@ h1 {
 }
 
 .card-link-btn {
-    color: var(--primary-color-highlight)
+    color: var(--primary-color);
 }
 
 .card-heading {
@@ -207,12 +207,17 @@ h1 {
     color: var(--primary-color-highlight);
 }
 
+.card {
+    background: transparent;
+    border: none;
+}
 
 
 .card-title-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5px;
 }
 
 .card-title-row .card-title {
@@ -226,7 +231,20 @@ h1 {
 
 .card-top {
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: var(--primary-color-highlight);
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-family: var(--heading-font);
+    font-size: 1.7rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: var(--primary-color-highlight);
 }
 
 .card-img-wrapper{
