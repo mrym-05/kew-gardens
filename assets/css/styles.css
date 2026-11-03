@@ -187,6 +187,7 @@ h1 {
 .attractions {
     background-color: var(--secondary-color);
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .attractions-intro {
@@ -264,3 +265,8 @@ h1 {
     border-radius: 0;
 }
 
+.link-btn {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-left: 1.5rem;
+}
