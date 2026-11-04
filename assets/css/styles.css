@@ -290,19 +290,27 @@ h1 {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    width: 170px;
-    height: 30px;
-    background: white;
+    width: 80px;
+    height: 60px;
+    background: var(--secondary-color);
     color: var(--primary-color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 2;
     font-family: var(--heading-font);
-    font-weight: 700;
+    font-weight: 800;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.event-label {
+    text-transform: lowercase;
+}
+
+.event-day{
     text-transform: uppercase;
     font-size: 19px;
-    border-radius: 10px;
 }
 
 .card-heading {
