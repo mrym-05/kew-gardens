@@ -356,6 +356,30 @@ h1 {
     padding: 30px 1rem;
 }
 
+.newsletter-top {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    color: var(--primary-color-highlight);
+}
+
+.newsletter-heading {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.newsletter-text {
+    text-transform: capitalize;
+    font-size: 0.9 rem;
+    color: var(--primary-color-highlight);
+}
+
+#newsletter-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
 .newsletter-btn-container {
     display: flex;
     justify-content: center;
@@ -370,4 +394,9 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     padding: 0.5rem 2rem;
+}
+
+.newsletter-disclaimer {
+    font-size: 0.8rem;
+    color: var(--primary-color-highlight);
 }
