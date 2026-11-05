@@ -31,9 +31,8 @@ body {
     width: 100%;
     z-index: 1000;
     background: var(--primary-color-highlight);
-    /* border: 1px solid var(--primary-color); */
     padding-top: 1rem;
-    padding-bottom: 1rem;    
+    padding-bottom: 1rem;  
 }
 
 .navbar-brand {
@@ -141,8 +140,7 @@ h1 {
     color: var(--primary-color);
     font-size: 13px;
     height: 230px;
-    padding-left: 1rem;
-    padding-top: 1.8rem;
+    padding: 30px 1rem;
     font-weight: 500;
 }
 
@@ -181,8 +179,7 @@ h1 {
 /* attractions section */
 .attractions {
     background-color: var(--secondary-color);
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding: 30px 1rem;
 }
 
 .attractions-intro {
@@ -354,6 +351,17 @@ h1 {
 }
 
 /* newsletter */
+.newsletter {
+    background: var(--secondary-color-darker);
+    padding: 30px 1rem;
+}
+
+.newsletter-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
 #newsletter-btn {
     background-color: var(--primary-color);
     color: var(--secondary-color-darker);
@@ -361,5 +369,5 @@ h1 {
     text-transform: capitalize;
     font-weight: 400;
     font-size: 16px;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 2rem;
 }
