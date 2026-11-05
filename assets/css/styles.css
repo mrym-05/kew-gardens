@@ -400,3 +400,33 @@ h1 {
     font-size: 0.8rem;
     color: var(--primary-color-highlight);
 }
+
+/* footer section */
+.footer {
+    background: var(--primary-color-highlight);
+    padding: 30px 1rem;
+}
+
+#footer-logo {
+    font-size: 1.4rem;
+}
+
+.footer-text {
+    padding-left: 25px;
+}
+
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+
+.footer-policies-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    text-transform: capitalize;
+}
