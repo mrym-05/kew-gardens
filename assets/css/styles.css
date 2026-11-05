@@ -320,7 +320,7 @@ h1 {
 /* gallery on home page */
 .home-gallery{
     background-color: var(--secondary-color);
-    padding: 15px 1rem;
+    padding: 30px 1rem;
 }
 
 .home-gallery-container {
@@ -351,4 +351,15 @@ h1 {
     color: var(--primary-color-highlight);
     font-size: 14px;
     margin-top: 10px;
+}
+
+/* newsletter */
+#newsletter-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color-darker);
+    border-color: var(--secondary-color-darker);
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.5rem 4rem;
 }
