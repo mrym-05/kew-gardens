@@ -318,4 +318,37 @@ h1 {
 }
 
 /* gallery on home page */
+.home-gallery{
+    background-color: var(--secondary-color);
+    padding: 15px 1rem;
+}
 
+.home-gallery-container {
+    margin-left: 1rem;
+}
+
+.home-gallery-top {
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: var(--primary-color-highlight);
+}
+
+.home-gallery-heading {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.home-imgs img {
+   width: 100%;
+   margin-top: 10px;
+   display: block;
+}
+
+.home-gallery-caption {
+    font-family: var(--body-font);
+    color: var(--primary-color-highlight);
+    font-size: 14px;
+    margin-top: 10px;
+}
