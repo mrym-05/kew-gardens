@@ -405,6 +405,8 @@ h1 {
 .footer {
     background: var(--primary-color-highlight);
     padding: 30px 1rem;
+    color: var(--secondary-color);
+    font-family: var(--body-font);
 }
 
 #footer-logo {
@@ -415,6 +417,26 @@ h1 {
     padding-left: 25px;
 }
 
+
+.footer h5 {
+    font-size: 0.9rem;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+
+.footer p {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.footer > .discovery {
+    text-transform: capitalize;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .copyright-container {
     display: flex;
