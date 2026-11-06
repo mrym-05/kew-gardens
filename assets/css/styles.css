@@ -333,7 +333,7 @@ h1 {
     padding: 30px 1rem;
 }
 
-.home-gallery-container {
+.home-gallery-text-container {
     margin-left: 1rem;
 }
 
@@ -357,18 +357,26 @@ h1 {
     border-radius: 3px;
 }
 
-.home-imgs img {
+/* .home-imgs img {
    width: 100%;
    height: auto;
    margin-top: 10px;
    display: block;
-}
+} */
+
+.home-gallery-img-container {
+        max-width: 300px;
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
 
 .home-gallery-caption {
     font-family: var(--body-font);
     color: var(--primary-color-highlight);
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 /* newsletter */
@@ -488,12 +496,14 @@ h1 {
     font-size: 9.5px;
 }
 
+
+
 /* media queries */
 
 /* medium mobile phones - 375px */
-@media screen and (min-width:375px) {
+/* @media screen and (min-width:375px) { */
     /* hero section */
-    .hero-content h1 {
+    /* .hero-content h1 {
         margin-bottom: 20px;
     }
 
@@ -503,45 +513,13 @@ h1 {
 
     .para-two {
         margin-bottom: 30px;
-    }
+    } */
 
     /* info section */
-    .info-block {
+    /* .info-block {
         padding-left: 1.9rem;      
     }
-}
-
-/* large mobile phones - 425px */
-@media screen and (min-width: 425px){
-    /* hero section */
-    .hero-content h1 {
-        margin-bottom: 35px;
-    }
-
-    .hero-desc {
-        max-width: 360px;
-    }
-
-    .para-two {
-        margin-bottom: 60px;
-    }
-
-    /* info section */
-    .info-container {
-        align-items: center;
-        font-size: 14px;
-    }
-
-    /* gallery section */
-    
-
-    /* footer section */
-    .footer-location,
-    .discovery, 
-    .contact {
-        text-align: center;
-    }
-}
+} */
 
 /* tablet screen sizes */
 @media  screen and (min-width: 768px) {
@@ -587,6 +565,17 @@ h1 {
     /* gallery section */
     .home-gallery-container {
         margin-left: 2rem;
+    }
+
+    .home-gallery-img-container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .home-gallery-img-container img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
     }
 
 }
