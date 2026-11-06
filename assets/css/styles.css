@@ -546,3 +546,26 @@ h1 {
         text-align: center;
     }
 }
+
+/* tablet screen sizes */
+@media  screen and (min-width: 768px) {
+    /* info section */
+    .info-block {
+       height: 150px; 
+    }
+
+    .info-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .info-row,
+    .info-row p {
+        margin-bottom: 0;
+    }
+
+    #info-btn {
+        margin-top: 1.8rem;
+    }
+}
