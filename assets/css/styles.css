@@ -82,7 +82,7 @@ html {
 
 .hero-content {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 1rem;
     transform: translateY(-35%);
     color: var(--secondary-color);
@@ -123,7 +123,7 @@ h1 {
 }
 
 .para-two {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 #hero-btn {
@@ -138,7 +138,7 @@ h1 {
 
 .text {
     font-size: 0.7rem;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 /* basic info section */
@@ -485,7 +485,7 @@ h1 {
 /* media queries */
 
 /* medium mobile phones - 375px */
-@media screen and (max-width:375px) {
+@media screen and (min-width:375px) {
     /* hero section */
     .hero-content {
         margin-top: 50px;
@@ -511,5 +511,24 @@ h1 {
     /* info section */
     .info-block {
         padding-left: 1.9rem;      
+    }
+}
+
+/* large mobile phones - 425px */
+@media screen and (min-width: 425px){
+       .hero-content {
+        margin-top: 65px;
+    }
+
+    .hero-content h1 {
+        margin-bottom: 35px;
+    }
+
+    .hero-desc {
+        max-width: 360px;
+    }
+
+    .text {
+        margin-top: 40px;
     }
 }
