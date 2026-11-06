@@ -151,6 +151,11 @@ h1 {
     font-weight: 500;
 }
 
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .info-row {
     display: flex;
     align-items: center;
@@ -487,11 +492,6 @@ h1 {
 /* medium mobile phones - 375px */
 @media screen and (min-width:375px) {
     /* hero section */
-    .hero-content {
-        margin-top: 50px;
-        padding-left: 1rem;
-    }
-
     .hero-content h1 {
         margin-bottom: 20px;
     }
@@ -516,10 +516,7 @@ h1 {
 
 /* large mobile phones - 425px */
 @media screen and (min-width: 425px){
-       .hero-content {
-        margin-top: 65px;
-    }
-
+    /* hero section */
     .hero-content h1 {
         margin-bottom: 35px;
     }
@@ -528,7 +525,24 @@ h1 {
         max-width: 360px;
     }
 
+    .para-two {
+        margin-bottom: 60px;
+    }
+
     .text {
-        margin-top: 40px;
+        margin-top: 80px;
+    }
+
+    /* info section */
+    .info-container {
+        align-items: center;
+        font-size: 14px;
+    }
+
+    /* footer section */
+    .footer-location,
+    .discovery, 
+    .contact {
+        text-align: center;
     }
 }
