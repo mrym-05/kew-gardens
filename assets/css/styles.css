@@ -481,3 +481,35 @@ h1 {
 .footer-policies-container p {
     font-size: 9.5px;
 }
+
+/* media queries */
+
+/* medium mobile phones - 375px */
+@media screen and (max-width:375px) {
+    /* hero section */
+    .hero-content {
+        margin-top: 50px;
+        padding-left: 1rem;
+    }
+
+    .hero-content h1 {
+        margin-bottom: 20px;
+    }
+
+    .hero-desc {
+        max-width: 300px;
+    }
+
+    .para-two {
+        margin-bottom: 30px;
+    }
+
+    .text {
+        margin-top: 50px;
+    }
+
+    /* info section */
+    .info-block {
+        padding-left: 1.9rem;      
+    }
+}
