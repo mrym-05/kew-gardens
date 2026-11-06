@@ -504,9 +504,9 @@ h1 {
         margin-bottom: 30px;
     }
 
-    .text {
-        margin-top: 50px;
-    }
+    /* .text {
+        margin-top: 0;
+    } */
 
     /* info section */
     .info-block {
@@ -529,9 +529,9 @@ h1 {
         margin-bottom: 60px;
     }
 
-    .text {
+    /* .text {
         margin-top: 80px;
-    }
+    } */
 
     /* info section */
     .info-container {
