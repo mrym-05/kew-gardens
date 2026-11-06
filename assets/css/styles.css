@@ -359,6 +359,7 @@ h1 {
 
 .home-imgs img {
    width: 100%;
+   height: auto;
    margin-top: 10px;
    display: block;
 }
@@ -504,10 +505,6 @@ h1 {
         margin-bottom: 30px;
     }
 
-    /* .text {
-        margin-top: 0;
-    } */
-
     /* info section */
     .info-block {
         padding-left: 1.9rem;      
@@ -529,15 +526,14 @@ h1 {
         margin-bottom: 60px;
     }
 
-    /* .text {
-        margin-top: 80px;
-    } */
-
     /* info section */
     .info-container {
         align-items: center;
         font-size: 14px;
     }
+
+    /* gallery section */
+    
 
     /* footer section */
     .footer-location,
@@ -549,6 +545,15 @@ h1 {
 
 /* tablet screen sizes */
 @media  screen and (min-width: 768px) {
+    /* hero section */
+    .hero-content {
+        margin-left: 2rem;
+    }
+
+    .hero-desc {
+        max-width: 500px;
+    }
+
     /* info section */
     .info-block {
        height: 150px; 
@@ -568,4 +573,20 @@ h1 {
     #info-btn {
         margin-top: 1.8rem;
     }
+
+    /*attractions section */
+    .attractions-intro {
+        margin-left: 2rem;
+    }
+
+    /* events section */
+    .event-container {
+        margin-left: 2rem;
+    }
+
+    /* gallery section */
+    .home-gallery-container {
+        margin-left: 2rem;
+    }
+
 }
