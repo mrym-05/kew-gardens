@@ -345,6 +345,13 @@ h1 {
     margin-bottom: 15px;
 }
 
+.home-gallery img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+}
+
 .home-imgs img {
    width: 100%;
    margin-top: 10px;
