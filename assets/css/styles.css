@@ -436,6 +436,7 @@ h1 {
     padding: 30px 1rem;
     color: var(--secondary-color);
     font-family: var(--body-font);
+    max-width: 100%;
 }
 
 #footer-logo {
@@ -459,14 +460,37 @@ h1 {
     margin-left: 1rem;
 }
 
-.footer p {
+.footer-links{
     font-weight: 300;
     font-size: 0.8rem;
     margin-left: 1rem;
+    text-transform: capitalize;
+}
+
+.footer-sub-heading {
+    font-weight: 400;
+    font-size: 14.4px;
+}
+
+.footer-cities {
+    font-weight: 300;
+    font-size: 12.8px;
+}
+
+.footer-padding {
+    padding-left: 15px;
 }
 
 .footer > .discovery {
     text-transform: capitalize;
+}
+
+.footer-contact {
+    max-width: 160px;
+}
+
+.socials {
+    padding-bottom: 7px;
 }
 
 .socials-container {
@@ -490,11 +514,14 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     text-transform: capitalize;
+    text-align: center;
+    font-size: 12px;
 }
 
 .copyright-container p, 
 .footer-policies-container p {
-    font-size: 9.5px;
+    font-size: 12px;
+    padding-bottom: 25px;
 }
 
 
@@ -543,18 +570,6 @@ h1 {
         font-size: 14px;
     }
 
-    /* footer section */
-    .footer-location,
-    .discovery, 
-    .contact {
-        text-align: center;
-    }
-
-    .footer-contact h5 {
-        display: flex;
-        justify-content: center;
-    }
-
     .contact-us p {
         display: flex;
         justify-content: center;
@@ -563,6 +578,10 @@ h1 {
     .socials-container .social-links {
         display: flex;
         justify-content: center;
+    }
+
+    .socials {
+        padding-bottom: 20px;
     }
 }
 
@@ -640,9 +659,13 @@ h1 {
     }
 
     /* footer */
-    /* .footer-flex-container {
+    .footer {
+        padding: 10;
+    }
+
+    .footer-grid-container {
         display: flex;
-        justify-content: space-evenly;
-    } */
+        justify-content: center;
+    }
 
 }
