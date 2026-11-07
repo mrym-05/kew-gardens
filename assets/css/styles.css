@@ -856,4 +856,23 @@ h1 {
     .hero-content {
         margin-left: 8rem;
     }
+
+    /* attractions section */
+    .attraction-card {
+        width: 25rem;
+    }
+
+    /* events section */
+    .event-card {
+        width: 25rem;
+    }
+
+    /* gallery */
+    .home-gallery-img-container {
+        max-width: 1300px;
+    }
+
+    .home-gallery-img-container img {
+        height: 350px;
+    }
 }
