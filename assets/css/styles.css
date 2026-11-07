@@ -203,6 +203,10 @@ h1 {
     scroll-margin-top: 100px;
 }
 
+.attraction-card {
+    width: 18rem;
+}
+
 .attractions-intro {
     margin-left: 1rem;
     color: var(--primary-color);
@@ -290,6 +294,10 @@ h1 {
     padding-bottom: 50px;
     background-color: var(--secondary-color-darker);
 
+}
+
+.event-card {
+    width: 18rem;
 }
 
 .event-container {
@@ -638,9 +646,18 @@ h1 {
         margin-left: 2rem;
     }
 
+    .attraction-card {
+        width: 22rem;
+
+    }
+
     /* events section */
     .event-container {
         margin-left: 2rem;
+    }
+
+    .event-card {
+        width: 22rem;
     }
 
     /* gallery section */
@@ -655,7 +672,7 @@ h1 {
 
     .home-gallery-img-container img {
         width: 100%;
-        height: 180px;
+        height: 210px;
         object-fit: cover;
     }
 
@@ -763,7 +780,8 @@ h1 {
     }
 }
 
-/* fix navbar issue between 1024 and 1440px */
+/* fix navbar issue between 1024 and 1440px
+ & make home gallery images larger */
 @media screen and (min-width: 1200px) {
     .navbar-container {
         max-width: 1300px;
@@ -773,6 +791,13 @@ h1 {
         height: 820px;
     }
 
+    .home-gallery-img-container {
+        max-width: 1000px;
+    }
+
+    .home-gallery-img-container img {
+        height: 350px;
+    }
 }
 
 
@@ -785,7 +810,6 @@ h1 {
 
     .navbar-container {
         max-width: 1400px;
-        /* margin-right: 10rem; */
     }
 
     /* hero section */
