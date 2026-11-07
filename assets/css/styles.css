@@ -726,6 +726,16 @@ h1 {
         height: 80px;
     }
 
+    /* attractions section */
+    .attraction-card {
+        width: 18rem;
+    }
+
+    /* events section */
+    .event-card {
+        width: 18rem;
+    }
+
     /* newsletter section */
 
     .email-col {
@@ -781,7 +791,8 @@ h1 {
 }
 
 /* fix navbar issue between 1024 and 1440px
- & make home gallery images larger */
+ & make home gallery images larger 
+ & add margin to footer logo */
 @media screen and (min-width: 1200px) {
     .navbar-container {
         max-width: 1300px;
@@ -797,6 +808,12 @@ h1 {
 
     .home-gallery-img-container img {
         height: 350px;
+    }
+
+    #footer-logo, 
+    .navbar-name,
+    .footer-list {
+        padding-left: 2rem;
     }
 }
 
