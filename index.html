@@ -28,7 +28,7 @@
     <header>
         <!-- bootstrap navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
+            <div class="container navbar-container">
                 <a class="navbar-brand" href="index.html"><img src="assets/images/Sprout.png" alt="Logo" width="40"
                         height="40" class="d-inline-block align-text-top">
                     Kew Gardens <p class="navbar-name">Royal Botanical Gardens</p></a>
@@ -38,7 +38,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -55,6 +55,9 @@
                             <a class="nav-link" href="#">Our Story</a>
                         </li>
                         <!--  book your visit cta here -->
+                          <li>
+                            <a href="#" class="book-btn">Book your visit</a>
+                          </li>
                     </ul>
                 </div>
             </div>
@@ -80,8 +83,6 @@
                 <p class="hero-desc para-two">A botanical escape in the heart of London.</p>
                 <a href="#attractions" id="hero-btn" class="btn btn-lg">Explore Kew <i
                         class="fa-solid fa-arrow-right button-arrow"></i></a>
-                <!-- <button type="button" id="hero-btn" class="btn btn-lg">Explore Kew <i
-                        class="fa-solid fa-arrow-right button-arrow"></i></button> -->
                 <p class="text">Rooted in wonder. Open to everyone.</p>
             </div>
         </section>
@@ -105,8 +106,6 @@
                     <a href="visit.html" id="info-btn" class="btn btn-primary d-lg-none">Book your visit <i
                             class="fa-solid fa-arrow-right button-arrow"></i></a>
                 </div>
-                <!-- <button type="button" id="info-btn" class="btn">Book your visit <i
-                            class="fa-solid fa-arrow-right button-arrow"></i></button> -->
             </div>
         </section>
 
@@ -124,7 +123,7 @@
 
                 <div class="row g-4 justify-content-center">
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
 
                         <div class="home-card">
                             <div class="card" style="width: 18rem;">
@@ -156,7 +155,7 @@
 
                     <br>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
 
                         <div class="home-card">
                             <div class="card" style="width: 18rem;">
@@ -188,7 +187,7 @@
 
                     <br>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
 
                         <div class="home-card">
                             <div class="card" style="width: 18rem;">
@@ -241,7 +240,7 @@
                 <div class="container">
                     <div class=" row g-4 justify-content-center">
 
-                        <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
 
                             <div class="home-card">
                                 <div class="card" style="width: 18rem;">
@@ -276,7 +275,7 @@
 
                         <br>
 
-                        <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
 
                             <div class="home-card">
                                 <div class="card" style="width: 18rem;">
@@ -311,7 +310,7 @@
 
                         <br>
 
-                        <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
 
                             <div class="home-card">
                                 <div class="card" style="width: 18rem;">
@@ -394,19 +393,25 @@
         <!-- newsletter section -->
         <section>
             <div class="newsletter">
-                <div class="newsletter-container">
+                <div class="newsletter-container row">
+                    <div class="newsletter-cols col-lg-6">
                     <p class="newsletter-top">Letters from the garden</p>
                     <h1 class="newsletter-heading">A little nature in your inbox.</h1>
                     <p class="newsletter-text">Seasonal stories, garden inspiration and first word on what's on.</p>
-
+                    </div>
+                    
+                    <div class="newsletter-cols email-col col-lg-4">
                     <div class="mb-3">
                         <label for="email-address" id="newsletter-label" class="form-label">Your email address</label>
                         <input type="email" class="form-control" id="email-address"
                             placeholder="Enter your email address">
+                        </div>
+                    </div>
+                    <div class="newsletter-cols email-btn-col col-lg-2">
                         <div class="newsletter-btn-container">
                             <button type="submit" id="newsletter-btn" class="btn btn-sm">Sign me up <i
                                     class="fa-solid fa-arrow-right info-arrow"></i></button>
-                        </div>
+                    </div>
                     </div>
                     <p class="newsletter-disclaimer">By signing up, you agree to our Privacy Policy. Unsubscribe at any
                         time.</p>
@@ -476,6 +481,7 @@
                                     class="text-decoration-none text-reset">contact@kew.org</a></li>
                         </ul>
                     </div>
+                    <br>
                     <div>
                         <h5 class="h6 socials">socials</h5>
                         <div class="socials-container d-flex gap-3">
