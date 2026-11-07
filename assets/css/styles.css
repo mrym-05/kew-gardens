@@ -781,7 +781,6 @@ h1 {
 
     .home-gallery-caption{
         max-width: 950px;
-        margin-left: 20px;
     }
 
     /* newsletter */
@@ -822,6 +821,20 @@ h1 {
     .home-gallery-img-container img {
         height: 350px;
     }
+
+    .home-gallery-text-container {
+        margin-left: 2rem;
+    }
+
+    .home-gallery-caption {
+        max-width: 1000px;
+
+    }
+
+    #hg-p-one {
+        margin-left: 7rem;
+    }
+
 
     /* footer */
     #footer-logo, 
@@ -875,4 +888,13 @@ h1 {
     .home-gallery-img-container img {
         height: 350px;
     }
+
+    .home-gallery-text-container {
+        margin-left: 2rem;
+    }
+
+    .home-gallery-caption {
+        max-width: 1300px;
+    }
+
 }
