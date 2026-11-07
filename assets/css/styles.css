@@ -27,7 +27,6 @@ body {
 .site-wrapper {
     max-width: 2000px;
     margin: 0 auto;
-    background: white;
 }
 
 /* internal link scrolling */
@@ -62,6 +61,10 @@ html {
 
 .book-btn {
     display: none;
+}
+
+.navbar-expand-lg {
+    max-width: 2000px
 }
 
 
