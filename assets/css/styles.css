@@ -737,6 +737,10 @@ h1 {
         margin-left: 45px;
     }
 
+    .hero {
+        height: 720px;
+    }
+
     /* info section */
     .info-block {
         height: 80px;
@@ -765,9 +769,10 @@ h1 {
         max-width: 1300px;
     }
 
-    .navbar-container {
-        /* margin-left: 1.5rem; */
+    .hero {
+        height: 820px;
     }
+
 }
 
 
@@ -783,12 +788,8 @@ h1 {
         /* margin-right: 10rem; */
     }
 
-    .navbar-brand {
-        /* margin-left: 8rem; */
-    }
-
     /* hero section */
     .hero-content {
-        margin-left: 10rem;
+        margin-left: 8rem;
     }
 }
