@@ -199,6 +199,23 @@ h1 {
     padding: 0.5rem 4rem;
 }
 
+/* DISCOVER PAGE */
+#discover-info-block {
+    height: 80px;
+}
+
+.discover-info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.discover-info-row a {
+    background-color: var(--secondary-color-darker);
+    color: var(--primary-color);
+}
+
 /* attractions section */
 #attractions {
     background-color: var(--secondary-color);
@@ -708,7 +725,7 @@ h1 {
 
 }
 
-/* bootstrap breakpoint lg (992px) for margin fixes and navbar button */
+/* bootstrap breakpoint lg (992px) */
 @media screen and (min-width:992px) {
 /* navbar */
     .book-btn {
@@ -760,6 +777,12 @@ h1 {
         text-align: end;
         margin-top: 2rem;
     }
+
+    /* DISCOVER PAGE */
+    /* hero */
+    #discover-hero {
+    height: 530px;
+}
 }
 
 /* laptop sizes (1024px) */
@@ -951,5 +974,11 @@ h1 {
 
     .footer-info {
         margin: 0 18rem;
+    }
+
+    /* DISCOVER PAGE */
+    /* hero */
+    #discover-hero {
+    height: 590px;
     }
 }
