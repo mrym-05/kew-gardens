@@ -595,6 +595,7 @@ h1 {
         justify-content: center;
     }
 
+    /* footer */
     .socials-container .social-links {
         display: flex;
         justify-content: center;
@@ -683,6 +684,7 @@ h1 {
         margin-left: 10px;
         display: flex;
         justify-content: space-between;
+        margin: 20px auto;
     }
 
     /* newsletter */
@@ -784,6 +786,7 @@ h1 {
 
     .home-gallery-caption{
         max-width: 950px;
+        margin: 20px auto;
     }
 
     /* newsletter */
@@ -831,6 +834,8 @@ h1 {
 
     .home-gallery-caption {
         max-width: 1000px;
+        margin: auto;
+        margin-top: 20px;
 
     }
 
@@ -898,6 +903,53 @@ h1 {
 
     .home-gallery-caption {
         max-width: 1300px;
+        margin: auto;
+        margin-top: 20px;
     }
 
+}
+
+@media screen and (min-width:1905px) {
+    /* hero */
+    .hero-content{
+        margin-left: 18rem;
+    }
+
+    /* attractions */
+    .attractions-intro {
+        margin-left: 18rem;
+    }
+
+    /* events */
+    .event-container {
+        margin-left: 18rem;
+    }
+
+    /* gallery */
+    .home-gallery-text-container {
+        margin-left: 18rem;
+    }
+
+    .home-gallery-caption {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+       /* newsletter */
+    .newsletter-container {
+        margin: 0 18rem;
+    }
+
+    /* footer */
+    footer .logo-container {
+        margin-left: 18rem;
+    }
+
+    .footer-list {
+        margin: 0 18rem;
+    }
+
+    .footer-info {
+        margin: 0 18rem;
+    }
 }
