@@ -419,6 +419,24 @@ h1 {
     justify-content: center;
 }
 
+.membership-perks {
+   list-style: none; 
+   margin-top: 55px;
+}
+
+.membership-perks h3 {
+    font-family: var(--heading-font);
+    font-size: 1.4rem;
+    columns: var(--primary-color);
+    text-transform: capitalize;
+}
+
+.membership-perks p {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--primary-color-highlight);
+}
+
 /* events section */
 .events {
     padding-top: 20px;
