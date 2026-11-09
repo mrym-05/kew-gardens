@@ -308,6 +308,13 @@ h1 {
     margin-top: 14px;
 }
 
+/* DISCOVER PAGE */
+.carousel-info {
+    font-size: 0.9rem;
+    color: var(--primary-color-highlight);
+    margin-top: 20px;
+}
+
 /* events section */
 .events {
     padding-top: 20px;
