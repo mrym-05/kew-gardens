@@ -360,6 +360,44 @@ h1 {
     top: 40%;
 }
 
+/* membership */
+#memberships {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: var(--secondary-color-darker);
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+}
+
+.membership-card {
+    background-color: var(--primary-color-darker);
+    border-radius: 45px;
+}
+
+.membership-card-img {
+    border-radius: 45px 45px 0 0;
+}
+
+#memberships h1 {
+    color: var(--primary-color);
+}
+
+.membership-heading {
+    margin-left: 1rem;
+}
+
+#memberships .card-top,
+#memberships .card-text {
+    color: var(--secondary-color-darker)
+}
+
+#memberships .card-title {
+    color: var(--secondary-color);
+}
+
 /* events section */
 .events {
     padding-top: 20px;
