@@ -331,9 +331,9 @@ h1 {
     justify-content: center;
 }
 
-.carousel-heading-flex-row i{
+.carousel-heading-flex-row i {
     margin-left: 15px;
-    margin-top: 8px;
+    margin-top: 25px;
 }
 
 .carousel-heading {
@@ -342,6 +342,7 @@ h1 {
     font-weight: 600;
     text-transform: capitalize;
     text-decoration: underline;
+    margin-top: 20px;
 }
 
 .carousel-p {
