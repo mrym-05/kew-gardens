@@ -355,6 +355,10 @@ h1 {
     border-radius: 10px;
 }
 
+.carousel-button {
+    top: 40%;
+}
+
 /* events section */
 .events {
     padding-top: 20px;
