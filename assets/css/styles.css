@@ -365,6 +365,7 @@ h1 {
     padding-top: 20px;
     padding-bottom: 50px;
     background-color: var(--secondary-color-darker);
+    scroll-margin-top: 100px;
 }
 
 .membership-container {
@@ -386,16 +387,36 @@ h1 {
 }
 
 .membership-heading {
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
-#memberships .card-top,
+.bootstrap-card-top,
 #memberships .card-text {
-    color: var(--secondary-color-darker)
+    color: var(--secondary-color-darker);
+}
+
+.bootstrap-card-top {
+    text-transform: uppercase;
+    font-size: 0.7rem;
 }
 
 #memberships .card-title {
     color: var(--secondary-color);
+}
+
+#membership-cta {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-color: var(--secondary-color-darker);
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.membership-cta-container {
+    display: flex;
+    justify-content: center;
 }
 
 /* events section */
