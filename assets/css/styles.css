@@ -789,6 +789,9 @@ h1 {
 
 .text-container {
     margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .text-container h1 {
