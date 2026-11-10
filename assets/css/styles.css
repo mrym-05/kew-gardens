@@ -1151,15 +1151,28 @@ h1 {
     /* DISCOVER PAGE */
     /* hero */
     #discover-hero {
-        height: 530px;
+        height: 630px;
     }
 
-        /* gallery */
+    #discover-hero .hero-desc {
+        padding-bottom: 60px;
+    }
+
+    /* carousel */
+    .carousel-info {
+        text-align: center;
+    }
+
+    /* gallery */
     .gallery-container {
         columns: 4;
         margin: 0 auto;
         height: 600px;
         max-width: 830px;
+    }
+
+    .text-container {
+        margin-top: 40px;
     }
 }
 
