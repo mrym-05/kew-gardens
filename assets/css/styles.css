@@ -655,19 +655,14 @@ h1 {
 }
 
 .membership-perks-container {
-    display: flex;
-    justify-content: center;
-}
-
-.perks-list {
-    padding: 0;
-    margin: 3px;
-    max-width: 145px;
+    max-width: 315px;
 }
 
 .membership-perks {
-    list-style: none;
     margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
 }
 
 .membership-perks h3 {
