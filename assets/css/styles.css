@@ -1208,6 +1208,36 @@ h1 {
     #newsletter-btn {
         padding: 7px;
     }
+
+    /* DISCOVER */
+    /* hero */
+    #discover-hero {
+        height: 720px;
+    }
+
+    #discover-hero .hero-desc {
+        padding-bottom: 60px;
+    }
+
+    /* carousel */
+    .carousel {
+        max-width: 860px;
+    }
+
+    .carousel-img {
+        min-height: 550px;
+    }
+
+    .carousel-button {
+        top: 20%;
+    }
+
+    /* memberships */
+    .membership-card {
+        width: 100%;
+        max-width: 900px;
+        padding-left: 20px;
+    }
 }
 
 /* fix navbar issue between 1024 and 1440px
