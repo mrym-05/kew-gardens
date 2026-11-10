@@ -152,11 +152,6 @@ h1 {
     margin-top: 20px;
 }
 
-/* DISCOVER PAGE */
-#discover-hero .hero-content {
-    max-width: 100%;
-}
-
 /* basic info section */
 .info-block {
     background-color: var(--secondary-color-darker);
@@ -204,22 +199,6 @@ h1 {
     padding: 0.5rem 4rem;
 }
 
-/* DISCOVER PAGE */
-#discover-info-block {
-    height: 80px;
-}
-
-.discover-info-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-}
-
-.discover-info-row a {
-    background-color: var(--secondary-color-darker);
-    color: var(--primary-color);
-}
 
 /* attractions section */
 #attractions {
@@ -313,198 +292,6 @@ h1 {
     margin-top: 14px;
 }
 
-/* DISCOVER PAGE */
-.carousel-info {
-    font-size: 0.9rem;
-    color: var(--primary-color-highlight);
-    margin-top: 20px;
-}
-
-.carousel-heading-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.carousel-heading-flex-row {
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-heading-flex-row i {
-    margin-left: 15px;
-    margin-top: 25px;
-}
-
-.carousel-heading {
-    color: var(--primary-color);
-    font-family: var(--heading-font);
-    font-weight: 600;
-    text-transform: capitalize;
-    text-decoration: underline;
-    margin-top: 20px;
-}
-
-.carousel-p {
-    color: var(--primary-color-darker);
-    font-size: 0.9rem;
-}
-
-.carousel-item img {
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.carousel-button {
-    top: 40%;
-}
-
-/* membership */
-#memberships {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    background-color: var(--secondary-color-darker);
-    scroll-margin-top: 100px;
-}
-
-.membership-container {
-    display: flex;
-    justify-content: center;
-}
-
-.membership-card {
-    background-color: var(--primary-color-darker);
-    border-radius: 45px;
-}
-
-.membership-card-img {
-    border-radius: 45px 45px 0 0;
-}
-
-#memberships h1 {
-    color: var(--primary-color);
-}
-
-.membership-heading {
-    margin-left: 2rem;
-}
-
-.bootstrap-card-top,
-#memberships .card-text {
-    color: var(--secondary-color-darker);
-}
-
-.bootstrap-card-top {
-    text-transform: uppercase;
-    font-size: 0.7rem;
-}
-
-#memberships .card-title {
-    color: var(--secondary-color);
-}
-
-.membership-perks-container {
-    display: flex;
-    justify-content: center;
-}
-
-.membership-perks {
-   list-style: none; 
-   margin-top: 55px;
-}
-
-.membership-perks h3 {
-    font-family: var(--heading-font);
-    font-size: 1.3rem;
-    columns: var(--primary-color);
-    text-transform: capitalize;
-}
-
-.membership-perks p {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    color: var(--primary-color-highlight);
-    margin-bottom: 30px;
-}
-
-.membership-rates-heading {
-    margin-top: 40px;
-    font-size: 2rem;
-    margin-left: 15px;
-    margin-bottom: 35px;
-    font-weight: 600;
-}
-
-.membership-card-title {
-    font-family: var(--heading-font);
-    font-size: 1.9rem;
-    font-weight: 650;
-}
-
-.card-body {
-    border-radius: 25px;
-    margin-left: 15px;
-    padding-top: 30px;
-}
-
-.light-card {
-    background-color: var(--secondary-color);
-    color: var(--primary-color-darker);
-}
-
-.membership-card-text {
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-.membership-price {
-    color: var(--secondary-color-darker) !important;
-}
-
-.first-card hr{
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-}
-
-.first-card .membership-card-text {
-    padding-top: 1.3rem;
-}
-
-.dark-card {
-    background-color: var(--primary-color-darker);
-    color: var(--secondary-color-darker);
-}
-
-.dark-card hr {
-    margin-top: 30px;
-    margin-bottom: 1rem;
-}
-
-.membership-rates-container .col {
-    display: flex;
-    justify-content: center;
-}
-
-#membership-cta {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-color: var(--secondary-color-darker);
-    text-transform: capitalize;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 10px;
-    padding: 10px 8px;
-}
-
-.membership-cta-container {
-    display: flex;
-    justify-content: center;
-}
-
-.membership-rates {
-    min-height: 295px;
-}
 
 /* events section */
 .events {
@@ -751,6 +538,227 @@ h1 {
     padding-bottom: 25px;
 }
 
+/* DISCOVER PAGE */
+/* hero */
+#discover-hero .hero-content {
+    max-width: 100%;
+}
+
+
+/* info section */
+#discover-info-block {
+    height: 80px;
+}
+
+.discover-info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.discover-info-row a {
+    background-color: var(--secondary-color-darker);
+    color: var(--primary-color);
+}
+
+.carousel-info {
+    font-size: 0.9rem;
+    color: var(--primary-color-highlight);
+    margin-top: 20px;
+}
+
+.carousel-heading-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.carousel-heading-flex-row {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-heading-flex-row i {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.carousel-heading {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.carousel-p {
+    color: var(--primary-color-darker);
+    font-size: 0.9rem;
+}
+
+.carousel-item img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-button {
+    top: 40%;
+}
+
+/* membership */
+#memberships {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: var(--secondary-color-darker);
+    scroll-margin-top: 100px;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+}
+
+.membership-card {
+    background-color: var(--primary-color-darker);
+    border-radius: 45px;
+}
+
+.membership-card-img {
+    border-radius: 45px 45px 0 0;
+}
+
+#memberships h1 {
+    color: var(--primary-color);
+}
+
+.membership-heading {
+    margin-left: 2rem;
+}
+
+.bootstrap-card-top,
+#memberships .card-text {
+    color: var(--secondary-color-darker);
+}
+
+.bootstrap-card-top {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+#memberships .card-title {
+    color: var(--secondary-color);
+}
+
+.membership-perks-container {
+    display: flex;
+    justify-content: center;
+}
+
+.membership-perks {
+   list-style: none; 
+   margin-top: 55px;
+}
+
+.membership-perks h3 {
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+    columns: var(--primary-color);
+    text-transform: capitalize;
+}
+
+.membership-perks p {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--primary-color-highlight);
+    margin-bottom: 30px;
+}
+
+.membership-rates-heading {
+    margin-top: 40px;
+    font-size: 2rem;
+    margin-left: 15px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.membership-card-title {
+    font-family: var(--heading-font);
+    font-size: 1.9rem;
+    font-weight: 650;
+    text-transform: capitalize;
+}
+
+.card-body {
+    border-radius: 25px;
+    margin-left: 15px;
+    padding-top: 30px;
+}
+
+.light-card {
+    background-color: var(--secondary-color);
+    color: var(--primary-color-darker);
+}
+
+.membership-card-text {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.membership-price {
+    color: var(--secondary-color-darker) !important;
+}
+
+.first-card hr{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.first-card .membership-card-text {
+    padding-top: 1.3rem;
+}
+
+.dark-card {
+    background-color: var(--primary-color-darker);
+    color: var(--secondary-color-darker);
+}
+
+.dark-card hr {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+}
+
+.membership-rates-container .col {
+    display: flex;
+    justify-content: center;
+}
+
+#membership-cta {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color-darker);
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px 8px;
+}
+
+.membership-cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.membership-rates {
+    min-height: 295px;
+}
+
+/* gallery */
+#gallery {
+    scroll-margin-top: 100px;
+}
 
 
 /* media queries */
