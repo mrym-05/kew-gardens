@@ -562,6 +562,8 @@ h1 {
     color: var(--primary-color);
 }
 
+/* carousel */
+
 .carousel-info {
     font-size: 0.9rem;
     color: var(--primary-color-highlight);
@@ -624,6 +626,7 @@ h1 {
 .membership-card {
     background-color: var(--primary-color-darker);
     border-radius: 45px;
+    width: 18rem;
 }
 
 .membership-card-img {
@@ -679,7 +682,7 @@ h1 {
 .membership-rates-heading {
     margin-top: 40px;
     font-size: 2rem;
-    margin-left: 15px;
+    text-align: center;
     margin-bottom: 35px;
     font-weight: 600;
 }
@@ -693,7 +696,6 @@ h1 {
 
 .card-body {
     border-radius: 25px;
-    margin-left: 15px;
     padding-top: 30px;
 }
 
@@ -976,6 +978,46 @@ h1 {
         justify-content: center;
     }
 
+    /* DISCOVER */
+    /* carousel */
+    .carousel {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .carousel-img {
+        min-height: 350px;
+    }
+
+    .carousel-button {
+        top: 30%;
+    }
+
+    .carousel-info {
+        margin-left: 2rem;
+    }
+
+    /* memberships */
+    .membership-heading {
+        margin-left: 6rem;
+        margin-right: 3rem;
+    }
+
+    .membership-card {
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 45px;
+    }
+
+    .membership-card-img {
+        border-radius: 0;
+    }
+
+    .membership-perks-container {
+
+    }
 }
 
 /* bootstrap breakpoint lg (992px) */
