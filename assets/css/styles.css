@@ -544,7 +544,6 @@ h1 {
     max-width: 100%;
 }
 
-
 /* info section */
 #discover-info-block {
     height: 80px;
@@ -658,6 +657,12 @@ h1 {
 .membership-perks-container {
     display: flex;
     justify-content: center;
+}
+
+.perks-list {
+    padding: 0;
+    margin: 3px;
+    max-width: 145px;
 }
 
 .membership-perks {
@@ -971,9 +976,7 @@ h1 {
         text-align: center;
     }
 
-    .text-container h1 {
-        margin-bottom: 2rem;
-    }
+    .text-container
 
     .text-container .discover-book-btn {
         max-width: 300px;
