@@ -445,6 +445,7 @@ h1 {
 .card-body {
     border-radius: 25px;
     margin-left: 15px;
+    padding-top: 30px;
 }
 
 .light-card {
@@ -461,9 +462,23 @@ h1 {
     color: var(--secondary-color-darker) !important;
 }
 
+.first-card hr{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.first-card .membership-card-text {
+    padding-top: 1.3rem;
+}
+
 .dark-card {
     background-color: var(--primary-color-darker);
     color: var(--secondary-color-darker);
+}
+
+.dark-card hr {
+    margin-top: 30px;
+    margin-bottom: 1rem;
 }
 
 .membership-rates-container .col {
