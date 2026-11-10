@@ -655,29 +655,31 @@ h1 {
 }
 
 .membership-perks-container {
-    max-width: 315px;
-}
-
-.membership-perks {
-    margin-top: 55px;
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
 }
 
-.membership-perks h3 {
+.perk {
+    text-align: center;
+}
+
+.perk h3 {
     font-family: var(--heading-font);
-    font-size: 1.3rem;
-    columns: var(--primary-color);
+    font-size: 1.4rem;
+    color: var(--primary-color);
     text-transform: capitalize;
+    font-weight: 800;
 }
 
-.membership-perks p {
+.perk p {
     font-size: 0.8rem;
     text-transform: uppercase;
     color: var(--primary-color-highlight);
-    margin-bottom: 30px;
 }
+
 
 .membership-rates-heading {
     margin-top: 40px;
@@ -833,6 +835,12 @@ h1 {
     .info-block {
         padding-left: 1.9rem;
     }
+
+    /* DISCOVER */
+    /* memberships */
+    .membership-perks {
+        margin-left: 3rem;
+    }
 }
 
 /* large mobile phones - 425px */
@@ -875,6 +883,13 @@ h1 {
 
     .socials {
         padding-bottom: 20px;
+    }
+
+    /* DISCOVER */
+    /* memberships */
+    .membership-perks {
+        margin-left: 4rem;
+        min-width: 320px;
     }
 }
 
@@ -1034,6 +1049,18 @@ h1 {
 
     .membership-card-img {
         border-radius: 0;
+    }
+
+    .membership-perks-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .perk {
+        flex: 1;
+        max-width: 220px;
     }
 
     /* gallery */
