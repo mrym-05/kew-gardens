@@ -1305,6 +1305,21 @@ h1 {
         margin-bottom: 2rem;
     }
 
+    /* DISCOVER */
+    /* hero */
+    #discover-hero {
+        height: 820px;
+    }
+
+    /* attractions intro */
+    .discover-attractions-intro {
+        margin-left: 6rem;
+    }
+
+    /* gallery */
+    .gallery-info {
+        margin-left: 6rem;
+    }
 }
 
 
