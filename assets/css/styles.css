@@ -959,6 +959,27 @@ h1 {
         margin: 20px auto;
     }
 
+    .gallery-item {
+        break-inside: avoid;
+    }
+
+    .gallery-container {
+        max-height: 500px;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .text-container h1 {
+        margin-bottom: 2rem;
+    }
+
+    .text-container .discover-book-btn {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
     /* newsletter */
     .newsletter-container {
         margin: 0 15px;
@@ -1015,9 +1036,23 @@ h1 {
         border-radius: 0;
     }
 
-    .membership-perks-container {
+    /* gallery */
+    .gallery-container {
+    columns: 4;
+    margin: 1rem;
+    height: 600px;
+}
 
-    }
+.gallery-img {
+    width: 95%;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+.gallery-captions {
+    font-size: 12px;
+}
 }
 
 /* bootstrap breakpoint lg (992px) */
