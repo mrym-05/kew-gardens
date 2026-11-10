@@ -666,8 +666,8 @@ h1 {
 }
 
 .membership-perks {
-   list-style: none; 
-   margin-top: 55px;
+    list-style: none;
+    margin-top: 55px;
 }
 
 .membership-perks h3 {
@@ -718,7 +718,7 @@ h1 {
     color: var(--secondary-color-darker) !important;
 }
 
-.first-card hr{
+.first-card hr {
     margin-top: 1.5rem;
     margin-bottom: 0;
 }
@@ -976,11 +976,13 @@ h1 {
         text-align: center;
     }
 
-    .text-container
-
-    .text-container .discover-book-btn {
+    .text-container .text-container .discover-book-btn {
         max-width: 300px;
         margin: 0 auto;
+    }
+
+    .gallery-info {
+        margin-left: 2rem;
     }
 
     /* newsletter */
@@ -1041,26 +1043,39 @@ h1 {
 
     /* gallery */
     .gallery-container {
-    columns: 4;
-    margin: 1rem;
-    height: 600px;
+        columns: 4;
+        margin: 1rem;
+        height: 600px;
+    }
+
+    .gallery-img {
+        width: 95%;
+        display: block;
+        margin-bottom: 5px;
+        border-radius: 6px;
+    }
+
+    .gallery-captions {
+        font-size: 12px;
+    }
 }
 
-.gallery-img {
-    width: 95%;
-    display: block;
-    margin-bottom: 5px;
-    border-radius: 6px;
+/* fixing gallery whitespace */
+@media screen and (min-width: 868px) {
+    /* gallery */
+    .gallery-container {
+        columns: 4;
+        margin: 0 auto;
+        height: 600px;
+        max-width: 830px;
+    }
 }
 
-.gallery-captions {
-    font-size: 12px;
-}
-}
 
 /* bootstrap breakpoint lg (992px) */
 @media screen and (min-width:992px) {
-/* navbar */
+
+    /* navbar */
     .book-btn {
         display: inline-block;
         margin-left: 2rem;
@@ -1105,7 +1120,7 @@ h1 {
         height: 50px;
         padding: 5px;
     }
-    
+
     .newsletter-disclaimer {
         text-align: end;
         margin-top: 2rem;
@@ -1114,12 +1129,21 @@ h1 {
     /* DISCOVER PAGE */
     /* hero */
     #discover-hero {
-    height: 530px;
-}
+        height: 530px;
+    }
+
+        /* gallery */
+    .gallery-container {
+        columns: 4;
+        margin: 0 auto;
+        height: 600px;
+        max-width: 830px;
+    }
 }
 
 /* laptop sizes (1024px) */
 @media screen and (min-width: 1024px) {
+
     /* hero-section */
     .hero-content {
         margin-left: 45px;
@@ -1140,7 +1164,7 @@ h1 {
         max-width: 900px;
     }
 
-    .home-gallery-caption{
+    .home-gallery-caption {
         max-width: 950px;
         margin: 20px auto;
     }
@@ -1155,6 +1179,7 @@ h1 {
  & make home gallery images larger 
  & add margin to footer logo */
 @media screen and (min-width: 1200px) {
+
     /* navbar */
     .navbar-container {
         max-width: 1300px;
@@ -1201,7 +1226,7 @@ h1 {
 
 
     /* footer */
-    #footer-logo, 
+    #footer-logo,
     .footer-list {
         padding-left: 2rem;
     }
@@ -1220,6 +1245,7 @@ h1 {
 
 /* desktop sizes (1400px) */
 @media screen and (min-width:1440px) {
+
     /* navbar */
     .navbar-nav {
         gap: 1rem;
@@ -1266,8 +1292,9 @@ h1 {
 }
 
 @media screen and (min-width:1905px) {
+
     /* hero */
-    .hero-content{
+    .hero-content {
         margin-left: 18rem;
     }
 
@@ -1291,7 +1318,7 @@ h1 {
         margin-top: 20px;
     }
 
-       /* newsletter */
+    /* newsletter */
     .newsletter-container {
         margin: 0 18rem;
     }
@@ -1312,6 +1339,6 @@ h1 {
     /* DISCOVER PAGE */
     /* hero */
     #discover-hero {
-    height: 590px;
+        height: 590px;
     }
 }
