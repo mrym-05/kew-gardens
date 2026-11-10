@@ -757,9 +757,15 @@ h1 {
 
 /* gallery */
 #gallery {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: var(--secondary-color);
     scroll-margin-top: 100px;
 }
 
+.gallery-info {
+    margin-left: 1rem;
+}
 
 /* media queries */
 
