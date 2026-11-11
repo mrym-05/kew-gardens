@@ -72,6 +72,44 @@
                     <h1 class="booking-heading">ready to explore?</h1>
                     <p class="booking-info">book your garden visit and start your next adventure.</p>
                 </div>
+
+                <div class="form-container">
+                    <div class="form-info">
+                        <h3 class="form-heading">Booking inquiry form</h3>
+                        <p class="form-text"><em>Fields marked with * are required.</em></p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="visit-date" class="form-label">Visit Date <span class="asterisk">*</span></label>
+                        <input type="date" class="form-control" id="visit-date" name="visit-date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="number-of-adults" class="form-label">Number of Adults <span
+                                class="asterisk">*</span></label>
+                        <input type="number" class="form-control" id="number-of-adults" name="number-of-adults"
+                            min="1" max="99" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="number-of-children" class="form-label">Number of Children <span
+                                class="asterisk">*</span></label>
+                        <input type="number" class="form-control" id="number-of-adults" name="number-of-adults"
+                            min="1" max="99" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ticket-type" class="form-label">Ticket Type <span class="asterisk">*</span></label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="adult">Adult</option>
+                            <option value="student">Student</option>
+                            <option value="family">Family</option>
+                            <option value="member">Member</option>
+                        </select>
+                    </div>
+                    <label for="ticket-type" class="form-label">Additional Requirements (Optional)</label>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea" class="placeholder-text">Accessibility needs, or anything else we should know.</label>
+                    </div>
+                </div>
             </section>
         </main>
 
