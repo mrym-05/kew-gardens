@@ -817,7 +817,7 @@ h1 {
 #booking {
     background-color: var(--secondary-color);
     padding-top: 140px;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
 }
 
 .booking-info {
@@ -883,6 +883,13 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+}
+
+.booking-end-text {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--primary-color-highlight);
+    text-align: center;
 }
 
 /* media queries */
@@ -1151,6 +1158,17 @@ h1 {
 
     .gallery-captions {
         font-size: 12px;
+    }
+
+    /* BOOKING */
+    .booking-info-container {
+        text-align: center;
+    }
+
+    .form-container {
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
     }
 }
 

@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="booking-page">
     <div class="site-wrapper">
         <header>
             <!-- bootstrap navbar -->
@@ -82,17 +82,19 @@
                         <label for="visit-date" class="form-label">Visit Date <span class="asterisk">*</span></label>
                         <input type="date" class="form-control" id="visit-date" name="visit-date" required>
                     </div>
-                    <div class="mb-3">
-                        <label for="number-of-adults" class="form-label">Number of Adults <span
-                                class="asterisk">*</span></label>
-                        <input type="number" class="form-control" id="number-of-adults" name="number-of-adults"
-                            min="1" max="99" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="number-of-children" class="form-label">Number of Children <span
-                                class="asterisk">*</span></label>
-                        <input type="number" class="form-control" id="number-of-adults" name="number-of-adults"
-                            min="1" max="99" required>
+                    <div class="row">
+                        <div class="mb-3 col-lg-6">
+                            <label for="number-of-adults" class="form-label">Number of Adults <span
+                                    class="asterisk">*</span></label>
+                            <input type="number" class="form-control" id="number-of-adults" name="number-of-adults"
+                                min="1" max="99" required>
+                        </div>
+                        <div class="mb-3 col-lg-6">
+                            <label for="number-of-children" class="form-label">Number of Children <span
+                                    class="asterisk">*</span></label>
+                            <input type="number" class="form-control" id="number-of-adults" name="number-of-adults"
+                                min="1" max="99" required>
+                        </div>
                     </div>
                     <div class="mb-3">
                         <label for="ticket-type" class="form-label">Ticket Type <span class="asterisk">*</span></label>
@@ -107,12 +109,16 @@
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here"
                             id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea" class="placeholder-text">Accessibility needs, or anything else we should know.</label>
+                        <label for="floatingTextarea" class="placeholder-text">Accessibility needs, or anything else we
+                            should know.</label>
                     </div>
                     <div class="book-btn-container">
-                    <a class="btn" id="booking-btn" href="success.html" role="button">Book Now!</a>
+                        <a class="btn" id="booking-btn" href="" role="button">Book Now!</a>
                     </div>
                 </div>
+                <br>
+                <hr>
+                <p class="booking-end-text">rooted in wonder, open to everyone</p>
             </section>
         </main>
 
