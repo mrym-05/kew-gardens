@@ -1430,8 +1430,9 @@ h1 {
     }
 
     /* DISCOVER PAGE */
-    /* hero */
-    #discover-hero {
-        height: 590px;
+    /* attractions margin fix */
+    .discover-attractions-intro {
+        margin: 0;
     }
+
 }
