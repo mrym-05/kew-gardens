@@ -1282,7 +1282,6 @@ h1 {
         max-width: 1000px;
         margin: auto;
         margin-top: 20px;
-
     }
 
     #hg-p-one {
@@ -1316,9 +1315,15 @@ h1 {
         margin-left: 6rem;
     }
 
+    /* membership */
+    .membership-rates-heading {
+        margin-bottom: 3rem;
+    }
+
     /* gallery */
     .gallery-info {
         margin-left: 6rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -1369,6 +1374,14 @@ h1 {
         margin-top: 20px;
     }
 
+    /* DISCOVER */
+    /* headings */
+    .discover-attractions-intro,
+    .membership-heading,
+    .gallery-info {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:1905px) {
