@@ -871,6 +871,20 @@ h1 {
     font-size: 9px;
 }
 
+#booking-btn {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.book-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 /* media queries */
 
 /* medium mobile phones - 375px */
